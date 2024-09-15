@@ -1,0 +1,31 @@
+.cooks-list {
+  margin-bottom: 50px;
+
+  .main-cooks {
+    margin-top: 136px;
+
+    .cooks-title {
+      text-align: center;
+      font-family: Tinos, serif;
+      font-size: 54px;
+      span {
+        color: #D67E34;
+      }
+
+    }
+
+    .cooks-folder {
+      margin-top: 107px;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+
+      @media (max-width: 375px) {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        gap: 17px;
+      }
+    }
+  }
+}

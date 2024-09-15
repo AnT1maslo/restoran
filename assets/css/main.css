@@ -16,6 +16,18 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: Cookie;
+  src: url("../fonts/Cookie-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: italic;
+  src: url("../fonts/OpenSans-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
 .header {
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
@@ -415,6 +427,130 @@
   font-family: OpenSans, serif;
   font-weight: 700;
   padding: 14px 18px;
+}
+
+.cooks-list {
+  margin-bottom: 50px;
+}
+.cooks-list .main-cooks {
+  margin-top: 136px;
+}
+.cooks-list .main-cooks .cooks-title {
+  text-align: center;
+  font-family: Tinos, serif;
+  font-size: 54px;
+}
+.cooks-list .main-cooks .cooks-title span {
+  color: #D67E34;
+}
+.cooks-list .main-cooks .cooks-folder {
+  margin-top: 107px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+@media (max-width: 375px) {
+  .cooks-list .main-cooks .cooks-folder {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 17px;
+  }
+}
+
+.catalog {
+  background: url("../img/bar_bg.png") no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+.catalog .catalog-items {
+  display: flex;
+  gap: 30px;
+}
+.catalog .prace-image {
+  position: absolute;
+  bottom: 10px;
+  right: 65px;
+}
+.catalog .menu-image {
+  position: relative;
+}
+.catalog .menu-image .price-420 {
+  position: absolute;
+  font-size: 30px;
+  bottom: 45px;
+  right: 94px;
+  color: #fff;
+  font-family: Cookie, serif;
+}
+.catalog .menu-item {
+  background-color: white;
+  text-align: center;
+  width: 33%;
+  padding-top: 88px;
+  padding-bottom: 30px;
+}
+.catalog .menu-item .catalog-text {
+  font-family: Tinos, serif;
+  font-weight: 400;
+  font-size: 26px;
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+.catalog .menu-item .catalog-subtext {
+  font-family: OpenSans, serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.catalog .menu-item .card-butn {
+  background-color: #D67E34;
+  color: #fff;
+  padding: 14px 67px;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.catalog .menu-item .catalog-button {
+  margin-top: 20px;
+}
+.catalog-title {
+  font-family: Tinos, serif;
+  font-size: 54px;
+  padding-top: 100px;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 138px;
+}
+
+.comment {
+  background-color: #E5E5E5;
+}
+.comment__all {
+  padding-top: 110px;
+}
+.comment__image {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.comment__text {
+  text-align: center;
+  font-family: italic, serif;
+  font-size: 20px;
+}
+.comment__type {
+  margin-top: 16px;
+  text-align: center;
+  font-family: OpenSans, serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.comment__name {
+  font-family: OpenSans, serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 9px;
+  text-align: center;
 }
 
 a {
