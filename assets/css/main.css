@@ -34,7 +34,7 @@ a {
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 800px;
 }
 .header__top-row {
   display: flex;
@@ -42,6 +42,10 @@ a {
   justify-content: space-between;
   padding-top: 55px;
   font-family: OpenSans, serif;
+  gap: 30px;
+}
+.header__top-row .logo {
+  flex-grow: 1;
 }
 .header__top-row .menu {
   display: flex;
@@ -54,7 +58,7 @@ a {
 .header__top-row .cart {
   display: flex;
   border-right: 1px white solid;
-  padding-right: 10px;
+  padding-right: 25px;
   height: 45px;
   align-items: center;
 }
@@ -74,6 +78,9 @@ a {
 }
 .header__top-row .phone_nums .phone_num {
   color: #fff;
+}
+.header__top-row .header__button {
+  margin-left: 10px;
 }
 .header__top-row .button__text {
   color: white;
@@ -157,7 +164,6 @@ a {
 }
 .cards .card-text {
   text-align: center;
-  justify-content: center;
   font-size: 26px;
   color: #656363;
   font-family: Tinos, serif;
@@ -165,6 +171,7 @@ a {
 
 .history {
   margin-top: 170px;
+  padding-bottom: 220px;
 }
 .history_folder {
   display: flex;
@@ -195,7 +202,7 @@ a {
 .history-stats .history-nums .nums-name {
   display: block;
   color: #000;
-  font-size: 16px;
+  font-size: 20px;
 }
 .history-title {
   font-size: 54px;
@@ -206,6 +213,11 @@ a {
 }
 .history-title .modern {
   color: #BC9060;
+}
+
+.block {
+  height: 360px;
+  background: url("../img/bg.png");
 }
 
 /*# sourceMappingURL=main.css.map */

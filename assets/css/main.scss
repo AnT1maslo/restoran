@@ -9,7 +9,6 @@ a {
 }
 .container {
   position: relative;
-  //margin: 0 170px;p
   width: 1108px;
   margin: 0 auto;
 }
@@ -18,7 +17,7 @@ a {
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 800px;
 
   &__top-row {
     display: flex;
@@ -26,6 +25,11 @@ a {
     justify-content: space-between;
     padding-top: 55px;
     font-family: OpenSans, serif;
+    gap: 30px;
+
+    .logo {
+      flex-grow: 1;
+    }
 
     .menu {
       display: flex;
@@ -39,7 +43,7 @@ a {
     .cart {
       display: flex;
       border-right: 1px white solid;
-      padding-right: 10px;
+      padding-right: 25px;
       height: 45px;
       align-items: center;
     }
@@ -67,12 +71,17 @@ a {
       }
     }
 
+    .header__button {
+      margin-left: 10px;
+    }
+
     .button__text {
       color: white;
       padding: 14px 18px;
       background-color: #ff7400;
       font-size: 14px;
       font-weight: 700;
+
     }
   }
 }
@@ -163,7 +172,6 @@ a {
 
     &-text {
       text-align: center;
-      justify-content: center;
       font-size: 26px;
       color: #656363;
       font-family: Tinos, serif;
@@ -173,6 +181,7 @@ a {
 
 .history {
   margin-top: 170px;
+  padding-bottom: 220px;
 
   &_folder {
     display: flex;
@@ -203,7 +212,7 @@ a {
       .nums-name {
         display: block;
         color: #000;
-        font-size: 16px;
+        font-size: 20px;
       }
     }
   }
@@ -219,5 +228,10 @@ a {
       color: #BC9060;
     }
   }
+}
+
+.block {
+  height: 360px;
+  background: url("../img/bg.png");
 }
 
