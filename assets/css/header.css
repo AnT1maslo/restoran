@@ -1,0 +1,104 @@
+.header {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.header__top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 55px;
+  font-family: OpenSans, serif;
+  gap: 30px;
+}
+.header__top-row .logo {
+  flex-grow: 1;
+}
+.header__top-row .menu {
+  display: flex;
+  gap: 24px;
+}
+.header__top-row .menu .menu_text {
+  color: #fff;
+  font-size: 16px;
+}
+.header__top-row .cart {
+  display: flex;
+  border-right: 1px white solid;
+  padding-right: 25px;
+  height: 45px;
+  align-items: center;
+}
+.header__top-row .telephone {
+  color: #fff;
+}
+.header__top-row .telephone .phone-block {
+  display: flex;
+  gap: 8px;
+}
+.header__top-row .phone__text {
+  max-width: 155px;
+  font-size: 14px;
+}
+.header__top-row .phone_nums {
+  font-size: 18px;
+}
+.header__top-row .phone_nums .phone_num {
+  color: #fff;
+}
+.header__top-row .header__button {
+  margin-left: 10px;
+}
+.header__top-row .button__text {
+  color: white;
+  padding: 14px 18px;
+  background-color: #ff7400;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header-down {
+  margin-top: 120px;
+}
+.header-down .header-text {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  justify-content: center;
+}
+.header-down .header-text span {
+  color: #D67E35;
+  font-size: 50px;
+  font-weight: 400;
+}
+.header-down .header-text h1 {
+  color: #D67E35;
+  font-size: 80px;
+  font-weight: 700;
+}
+.header-down .header-text .sub-title {
+  color: white;
+  font-size: 18px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header-down .header-text .sub-title:after, .header-down .header-text .sub-title:before {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 60px;
+  background-color: #ffffff;
+}
+.header-down .header-text .btn {
+  padding: 14px 28px;
+  background-color: #ff7400;
+  display: inline-block;
+  color: wheat;
+  margin-top: 26px;
+}
+
+/*# sourceMappingURL=header.css.map */

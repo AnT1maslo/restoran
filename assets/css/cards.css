@@ -1,0 +1,37 @@
+.cards .card_folder {
+  display: flex;
+  justify-content: center;
+}
+.cards .card {
+  background-color: #fff;
+  width: 349px;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1019607843);
+  margin-right: 31px;
+  margin-top: -80px;
+  padding: 10px 15px;
+}
+.cards .card-img {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.cards .card-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: Tinos, serif;
+  font-weight: 400;
+  font-size: 26px;
+  gap: 5px;
+}
+.cards .card-title .title-style {
+  color: #BC9060;
+}
+.cards .card-text {
+  text-align: center;
+  font-size: 26px;
+  color: #656363;
+  font-family: Tinos, serif;
+}
+
+/*# sourceMappingURL=cards.css.map */

@@ -1,0 +1,228 @@
+.header {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+
+  @media (max-width: 375px) {
+    background-image: url("../img/background-mobile.png");
+  }
+
+  &__top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+    font-family: OpenSans, serif;
+    gap: 30px;
+
+    @media (max-width: 375px) {
+      padding-top: 30px;
+    }
+
+
+    .logo {
+      flex-grow: 1;
+
+      img {
+
+        @media (max-width: 375px) {
+          width: 45px;
+          height: 31px;
+
+        }
+      }
+    }
+
+    .menu {
+      display: flex;
+      gap: 24px;
+
+      .menu_text {
+        color: #fff;
+        font-size: 16px;
+      }
+
+      @media (max-width: 375px) {
+        display: none;
+      }
+    }
+
+    .cart {
+      display: flex;
+      border-right: 1px white solid;
+      padding-right: 25px;
+      height: 45px;
+      align-items: center;
+
+      @media (max-width: 375px) {
+        display: none;
+      }
+    }
+
+    .telephone {
+      color: #fff;
+
+      .phone-block {
+        display: flex;
+        gap: 8px;
+      }
+
+      @media (max-width: 375px) {
+        display: none;
+      }
+    }
+
+    .phone__text {
+      max-width: 155px;
+      font-size: 14px;
+    }
+
+    .phone_nums {
+      font-size: 18px;
+
+      .phone_num {
+        color: #fff;
+
+      }
+    }
+
+    .header__button {
+      margin-left: 10px;
+
+      .button__text {
+        color: white;
+        padding: 14px 18px;
+        background-color: #ff7400;
+        font-size: 14px;
+        font-weight: 700;
+
+      }
+
+      @media (max-width: 375px) {
+        display: none;
+      }
+    }
+
+    .burger {
+      display: none;
+
+      @media (max-width: 375px) {
+        display: block;
+
+      }
+    }
+  }
+}
+
+.header-down {
+  margin-top: 120px;
+
+  .header-text {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    justify-content: center;
+
+    @media (max-width: 375px) {
+      position: static;
+    }
+
+    h1 {
+      color: #D67E35;
+
+      .first-row {
+        display: block;
+        font-size: 50px;
+        font-weight: 400;
+
+        @media (max-width: 375px) {
+          display: none;
+        }
+      }
+
+      .second-row {
+        display: block;
+        font-size: 80px;
+        font-weight: 700;
+
+        @media (max-width: 375px) {
+          display: none;
+        }
+      }
+
+      .first-row-mobile {
+        display: block;
+        font-size: 30px;
+        font-weight: 400;
+
+        @media (min-width: 376px) {
+          display: none;
+        }
+
+      }
+
+      .second-row-mobile {
+        display: block;
+        font-size: 40px;
+        font-weight: 400;
+
+        @media (min-width: 376px) {
+          display: none;
+        }
+
+      }
+    }
+
+    .sub-title {
+      color: white;
+      font-size: 18px;
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      @media (max-width: 375px) {
+        font-size: 15px;
+      }
+
+      &:after, &:before {
+        display: block;
+        content: ("");
+        height: 2px;
+        width: 60px;
+        background-color: #ffffff;
+
+        @media (max-width: 375px) {
+          display: none;
+        }
+
+      }
+    }
+
+    .btn {
+      padding: 14px 28px;
+      background-color: #ff7400;
+      display: inline-block;
+      color: wheat;
+      margin-top: 26px;
+
+      @media (max-width: 375px) {
+        display: none;
+      }
+    }
+
+    .btn-mobile {
+      padding: 14px 22px;
+      background-color: #ff7400;
+      color: wheat;
+      margin-top: 54px;
+      display: none;
+
+      @media (max-width: 375px) {
+        display: inline-block;
+      }
+    }
+  }
+}
