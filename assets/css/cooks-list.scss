@@ -1,15 +1,33 @@
 .cooks-list {
-  margin-bottom: 50px;
+  margin-bottom: 137px;
+
+  @media (max-width: 375px) {
+    margin-bottom: 50px;
+  }
+
 
   .main-cooks {
     margin-top: 136px;
+
+    @media (max-width: 375px) {
+      margin-top: 40px;
+    }
 
     .cooks-title {
       text-align: center;
       font-family: Tinos, serif;
       font-size: 54px;
+
+      @media (max-width: 375px) {
+        font-size: 40px;
+      }
+
       span {
         color: #D67E34;
+
+        @media (max-width: 375px) {
+          display: block;
+        }
       }
 
     }
@@ -17,7 +35,7 @@
     .cooks-folder {
       margin-top: 107px;
       display: flex;
-      gap: 15px;
+      gap: 32px;
       justify-content: center;
 
       @media (max-width: 375px) {
@@ -25,6 +43,7 @@
         align-items: center;
         display: flex;
         gap: 17px;
+        margin-top: 70px;
       }
     }
   }

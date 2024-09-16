@@ -1,9 +1,13 @@
 .block {
   padding: 80px 0;
-  background: url("../img/bg.png");
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 357px;
 
   @media (max-width: 375px) {
-    background: url("../img/bg-mobile.png");
+    background-image: url("../img/bg-mobile.png");
+    padding: 30px 0;
   }
 
   &-folder {
@@ -35,15 +39,27 @@
     font-size: 24px;
     font-family: OpenSans, serif;
     font-weight: 700;
+
+    @media (max-width: 375px) {
+      margin-top: 30px;
+    }
   }
 
-  .right-butn {
-    background-color: #FF7400;
-    color: #ffffff;
-    font-size: 14px;
-    font-family: OpenSans, serif;
-    font-weight: 700;
-    padding: 14px 18px;
+  .right {
+
+    @media (max-width: 375px) {
+      margin-top: 50px;
+    }
+
+    .right-butn {
+      background-color: #FF7400;
+      color: #ffffff;
+      font-size: 14px;
+      font-family: OpenSans, serif;
+      font-weight: 700;
+      padding: 14px 18px;
+    }
   }
+
 
 }
